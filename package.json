@@ -1,0 +1,25 @@
+{
+  "name": "secureflow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dependency-aware task scheduler (topological sort) with streaming log security audit (KMP), full-stack on Next.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.2.0"
+  }
+}

@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Next.js build & generated files
+.next/
+next-env.d.ts
+
+# TypeScript
+*.tsbuildinfo
+
+# Local database & persisted runtime data
+.data/
+
+
+
+
+
+
