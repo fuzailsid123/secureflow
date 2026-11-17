@@ -1,25 +1,18 @@
 {
-  "name": "secureflow",
+  "name": "smart-study-planner-backend",
   "version": "1.0.0",
   "private": true,
-  "description": "Dependency-aware task scheduler (topological sort) with streaming log security audit (KMP), full-stack on Next.js",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "dev": "node --watch --disable-warning=ExperimentalWarning src/index.js",
+    "start": "node --disable-warning=ExperimentalWarning src/index.js",
+    "test": "node --test"
   },
   "dependencies": {
-    "next": "16.4.6",
-    "react": "19.3.1",
-    "react-dom": "19.3.1"
-  },
-  "devDependencies": {
-    "@types/node": "^22.0.0",
-    "@types/react": "19.3.0",
-    "@types/react-dom": "19.3.0",
-    "typescript": "^5.6.0",
-    "vitest": "^3.2.0"
+    "cors": "^2.8.5",
+    "express": "^5.3.0"
   }
 }
